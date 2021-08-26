@@ -69,7 +69,7 @@ DMD.SeqAlloc(nbImg = 2, bitDepth = bitDepth)
 DMD.SeqPut(imgData = imgSeq)
 
 
-# Set image rate to 50 Hz
+# Set image rate to 50 Hz (if default value 20000)
 DMD.SetTiming(pictureTime = 50000)
 
 # Run the sequence in an infinite loop
