@@ -18,9 +18,6 @@ else:
 ## Standard parameter
 ALP_DEFAULT = 0
 
-# 21/08/25
-ALP_ENABLE = 1
-
 ## Return codes
 ALP_OK = 0x00000000  # Successfull execution
 ALP_NOT_ONLINE = 1001  # The specified ALP has not been found or is not ready.
@@ -154,9 +151,6 @@ ALP_X_SHEAR_SELECT = 2132 # ALP_DEFAULT or ALP_ENABLE
 ALP_DMD_MASK_SELECT = 2134 # ALP_DEFAULT or ALP_ENABLE, ALP_DMD_MASK_16X8 
 ALP_DMD_MASK_16X16 = ALP_ENABLE
 ALP_DMD_MASK_16X8 = 2 # XGA only
-
-
-##########################################################################
 
 
 def MAKELONG(StartRow, RowCount):
